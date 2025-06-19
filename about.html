@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>О нас</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body"> 
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__box">
+                    <p class="header__name">«Ритуальная служба Чирков — c заботой о тех, кто был нам дорог»</p>
+                    <div class="header__adress">
+                        <p class="header__adress-name">г. Киев, <br>ул. Багговутовская, 1, корп. 18</p>
+                        <p class="header__adress-descr">(территория Киевской областной клинической больницы № 1)</p>
+                    </div>
+                </div>
+                <a class="header__logo" href="index.html">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <div class="header__box">
+                    <div class="header__block">
+                        <div class="header__block-item header__block-row">
+                            <a class="header__block-tel" href="tel:+380445993000">(044) 599-30-00</a>
+                            <div class="header__block-socials">
+                                <a href="#" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                        <path d="M9 1.5C4.86 1.5 1.5 4.86 1.5 9C1.5 13.14 4.86 16.5 9 16.5C13.14 16.5 16.5 13.14 16.5 9C16.5 4.86 13.14 1.5 9 1.5ZM12.48 6.6C12.3675 7.785 11.88 10.665 11.6325 11.9925C11.5275 12.555 11.3175 12.7425 11.1225 12.765C10.6875 12.8025 10.3575 12.48 9.9375 12.2025C9.2775 11.7675 8.9025 11.4975 8.265 11.0775C7.5225 10.59 8.0025 10.32 8.43 9.885C8.5425 9.7725 10.4625 8.025 10.5 7.8675C10.5052 7.84364 10.5045 7.81888 10.498 7.79535C10.4914 7.77183 10.4793 7.75025 10.4625 7.7325C10.4175 7.695 10.3575 7.71 10.305 7.7175C10.2375 7.7325 9.1875 8.43 7.14 9.81C6.84 10.0125 6.57 10.1175 6.33 10.11C6.06 10.1025 5.55 9.96 5.1675 9.8325C4.695 9.6825 4.3275 9.6 4.3575 9.3375C4.3725 9.2025 4.56 9.0675 4.9125 8.925C7.1025 7.9725 8.5575 7.3425 9.285 7.0425C11.37 6.1725 11.7975 6.0225 12.0825 6.0225C12.1425 6.0225 12.285 6.0375 12.375 6.1125C12.45 6.1725 12.4725 6.255 12.48 6.315C12.4725 6.36 12.4875 6.495 12.48 6.6Z" fill="#2AABEE"/>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5073 1.971C10.1477 1.44354 7.70067 1.44354 5.34104 1.971L5.08679 2.02725C4.42287 2.17525 3.81306 2.50461 3.32524 2.97866C2.83742 3.4527 2.49073 4.05284 2.32379 4.71225C1.72671 7.06927 1.72671 9.53797 2.32379 11.895C2.48302 12.5239 2.80587 13.0994 3.25954 13.5631C3.71322 14.0267 4.28155 14.3621 4.90679 14.535L5.25554 16.617C5.26667 16.6831 5.29532 16.745 5.33851 16.7963C5.3817 16.8476 5.43785 16.8863 5.50111 16.9086C5.56436 16.9308 5.63242 16.9356 5.69818 16.9226C5.76395 16.9096 5.82502 16.8791 5.87504 16.8345L7.92329 15.0023C9.46085 15.0951 11.0038 14.9721 12.5073 14.637L12.7623 14.5807C13.4262 14.4328 14.036 14.1034 14.5238 13.6293C15.0117 13.1553 15.3583 12.5552 15.5253 11.8957C16.1224 9.53872 16.1224 7.07002 15.5253 4.713C15.3583 4.0535 15.0115 3.45329 14.5235 2.97924C14.0356 2.50518 13.4256 2.17587 12.7615 2.028L12.5073 1.971ZM5.97404 4.6515C5.83465 4.63109 5.69247 4.65915 5.57129 4.731H5.56079C5.27954 4.896 5.02604 5.10375 4.81004 5.34825C4.63004 5.556 4.53254 5.766 4.50704 5.9685C4.49204 6.0885 4.50254 6.21 4.53779 6.32475L4.55129 6.33225C4.75379 6.927 5.01779 7.49925 5.34029 8.03775C5.75631 8.794 6.26802 9.49351 6.86279 10.119L6.88079 10.1445L6.90929 10.1655L6.92654 10.1857L6.94754 10.2037C7.57527 10.8002 8.27641 11.3144 9.03404 11.7337C9.90029 12.2055 10.426 12.4282 10.7418 12.5212V12.5257C10.834 12.5542 10.918 12.567 11.0028 12.567C11.2718 12.5477 11.5265 12.4383 11.7258 12.2565C11.9695 12.0405 12.1758 11.7862 12.3363 11.5035V11.4982C12.487 11.2132 12.436 10.9447 12.2185 10.7625C11.782 10.3803 11.3096 10.0412 10.8078 9.75C10.4718 9.56775 10.1305 9.678 9.99254 9.8625L9.69779 10.2345C9.54629 10.419 9.27179 10.3935 9.27179 10.3935L9.26429 10.398C7.21604 9.87525 6.66929 7.8015 6.66929 7.8015C6.66929 7.8015 6.64379 7.5195 6.83354 7.3755L7.20254 7.0785C7.37954 6.9345 7.50254 6.594 7.31279 6.258C7.02222 5.75657 6.6839 5.28438 6.30254 4.848C6.21912 4.74553 6.10229 4.6757 5.97254 4.65075M9.43454 3.75C9.33508 3.75 9.2397 3.78951 9.16937 3.85983C9.09905 3.93016 9.05954 4.02554 9.05954 4.125C9.05954 4.22446 9.09905 4.31984 9.16937 4.39016C9.2397 4.46049 9.33508 4.5 9.43454 4.5C10.3833 4.5 11.1708 4.80975 11.794 5.40375C12.1143 5.7285 12.364 6.11325 12.5275 6.53475C12.6918 6.957 12.7668 7.40775 12.7473 7.85925C12.7452 7.9085 12.7529 7.95767 12.7698 8.00395C12.7867 8.05024 12.8126 8.09274 12.846 8.12903C12.9134 8.20231 13.0071 8.24582 13.1065 8.25C13.206 8.25418 13.303 8.21867 13.3763 8.1513C13.4496 8.08393 13.4931 7.99021 13.4973 7.89075C13.5197 7.33542 13.4275 6.78143 13.2265 6.26325C13.0246 5.74244 12.7172 5.26902 12.3235 4.87275L12.316 4.86525C11.5428 4.1265 10.564 3.75 9.43454 3.75ZM9.40904 4.983C9.30958 4.983 9.2142 5.02251 9.14387 5.09283C9.07355 5.16316 9.03404 5.25854 9.03404 5.358C9.03404 5.45746 9.07355 5.55284 9.14387 5.62316C9.2142 5.69349 9.30958 5.733 9.40904 5.733H9.42179C10.1058 5.78175 10.6038 6.00975 10.9525 6.384C11.3103 6.7695 11.4955 7.24875 11.4813 7.84125C11.479 7.94071 11.5163 8.037 11.585 8.10894C11.6537 8.18088 11.7482 8.22259 11.8477 8.22487C11.9471 8.22716 12.0434 8.18985 12.1154 8.12114C12.1873 8.05243 12.229 7.95796 12.2313 7.8585C12.2493 7.08075 11.9988 6.4095 11.5023 5.874V5.8725C10.9945 5.328 10.2978 5.04 9.45929 4.98375L9.44654 4.98225L9.40904 4.983ZM9.39479 6.23925C9.3446 6.23482 9.29404 6.24055 9.24612 6.2561C9.1982 6.27164 9.1539 6.29668 9.11587 6.32973C9.07784 6.36277 9.04686 6.40314 9.02477 6.44842C9.00269 6.49371 8.98996 6.54297 8.98734 6.59329C8.98472 6.6436 8.99226 6.69392 9.00952 6.74125C9.02677 6.78859 9.05339 6.83196 9.08778 6.86877C9.12217 6.90559 9.16363 6.9351 9.20967 6.95554C9.25572 6.97598 9.30542 6.98694 9.35579 6.98775C9.66929 7.00425 9.86954 7.09875 9.99554 7.2255C10.1223 7.353 10.2168 7.55775 10.234 7.878C10.235 7.92832 10.246 7.97794 10.2666 8.02391C10.2871 8.06987 10.3166 8.11123 10.3535 8.14552C10.3903 8.17981 10.4337 8.20634 10.481 8.22351C10.5283 8.24069 10.5786 8.24817 10.6289 8.2455C10.6791 8.24283 10.7283 8.23007 10.7736 8.20798C10.8188 8.18589 10.8591 8.15492 10.8921 8.11691C10.9251 8.07891 10.9501 8.03465 10.9657 7.98678C10.9812 7.9389 10.9869 7.88839 10.9825 7.83825C10.9585 7.38825 10.8175 6.99075 10.5288 6.69825C10.2385 6.40575 9.84329 6.26325 9.39479 6.23925Z" fill="#6247BD"/>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                        <path d="M9.00099 1.5C13.1432 1.5 16.501 4.85775 16.501 9C16.501 13.1422 13.1432 16.5 9.00099 16.5C7.67555 16.5023 6.37342 16.1515 5.22849 15.4838L1.50399 16.5L2.51799 12.774C1.84971 11.6287 1.49867 10.326 1.50099 9C1.50099 4.85775 4.85874 1.5 9.00099 1.5ZM6.44499 5.475L6.29499 5.481C6.19801 5.48768 6.10325 5.51315 6.01599 5.556C5.93467 5.60213 5.86041 5.65972 5.79549 5.727C5.70549 5.81175 5.65449 5.88525 5.59974 5.9565C5.32233 6.31718 5.17297 6.75998 5.17524 7.215C5.17674 7.5825 5.27274 7.94025 5.42274 8.27475C5.72949 8.95125 6.23424 9.6675 6.90024 10.3312C7.06074 10.491 7.21824 10.6515 7.38774 10.8008C8.21531 11.5293 9.20145 12.0547 10.2677 12.3353L10.6937 12.4005C10.8325 12.408 10.9712 12.3975 11.1107 12.3907C11.3291 12.3792 11.5424 12.3201 11.7355 12.2175C11.8336 12.1668 11.9295 12.1117 12.0227 12.0525C12.0227 12.0525 12.0545 12.031 12.1165 11.985C12.2177 11.91 12.28 11.8568 12.364 11.769C12.427 11.704 12.4795 11.6285 12.5215 11.5425C12.58 11.4203 12.6385 11.187 12.6625 10.9927C12.6805 10.8442 12.6752 10.7633 12.673 10.713C12.67 10.6328 12.6032 10.5495 12.5305 10.5143L12.094 10.3185C12.094 10.3185 11.4415 10.0343 11.0425 9.85275C11.0007 9.83457 10.956 9.82415 10.9105 9.822C10.8592 9.81663 10.8073 9.82236 10.7584 9.83879C10.7095 9.85523 10.6647 9.88198 10.627 9.91725C10.6232 9.91575 10.573 9.9585 10.0307 10.6155C9.99961 10.6573 9.95674 10.6889 9.90759 10.7063C9.85844 10.7237 9.80522 10.726 9.75474 10.713C9.70586 10.7 9.65798 10.6834 9.61149 10.6635C9.51849 10.6245 9.48624 10.6095 9.42249 10.5825C8.99189 10.3949 8.59332 10.1411 8.24124 9.83025C8.14674 9.74775 8.05899 9.65775 7.96899 9.57075C7.67395 9.28816 7.4168 8.96849 7.20399 8.61975L7.15974 8.5485C7.12844 8.50035 7.10277 8.44876 7.08324 8.39475C7.05474 8.2845 7.12899 8.196 7.12899 8.196C7.12899 8.196 7.31124 7.9965 7.39599 7.8885C7.47849 7.7835 7.54824 7.6815 7.59324 7.60875C7.68174 7.46625 7.70949 7.32 7.66299 7.20675C7.45299 6.69375 7.23599 6.1835 7.01199 5.676C6.96774 5.5755 6.83649 5.5035 6.71724 5.48925C6.67674 5.48425 6.63624 5.48025 6.59574 5.47725C6.49503 5.47147 6.39406 5.47248 6.29349 5.48025L6.44499 5.475Z" fill="#38D547"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header__block-item">
+                            <a class="header__block-mail" href="mailto:info@chirkov.com.ua">info@chirkov.com.ua</a>
+                            <p class="header__block-descr">Работаем без выходных</p>
+                        </div>
+                    </div>
+                    <div class="header__end">
+                        <button class="header__btn btn popup-open">Заказать звонок</button>
+                        <div class="header__lang">
+                            <p class="header__lang-selected">Ru</p>
+                            <div class="header__lang-content">
+                                <a href="#">Ua</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="header__burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="23" viewBox="0 0 33 23" fill="none">
+                        <path d="M0 1.5C0 0.671573 0.671573 0 1.5 0H31.5C32.3284 0 33 0.671573 33 1.5C33 2.32843 32.3284 3 31.5 3H1.5C0.671573 3 0 2.32843 0 1.5Z" fill="#F1ECDD"/>
+                        <path d="M0 11.5C0 10.6716 0.671573 10 1.5 10H31.5C32.3284 10 33 10.6716 33 11.5C33 12.3284 32.3284 13 31.5 13H1.5C0.671573 13 0 12.3284 0 11.5Z" fill="#F1ECDD"/>
+                        <path d="M0 21.5C0 20.6716 0.671573 20 1.5 20H31.5C32.3284 20 33 20.6716 33 21.5C33 22.3284 32.3284 23 31.5 23H1.5C0.671573 23 0 22.3284 0 21.5Z" fill="#F1ECDD"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <button class="header__bottom-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                    <path d="M0.833121 24.1673C0.247334 23.5815 0.247334 22.6318 0.833121 22.046L22.0463 0.832783C22.6321 0.246997 23.5819 0.246996 24.1676 0.832783C24.7534 1.41857 24.7534 2.36832 24.1676 2.9541L2.95444 24.1673C2.36866 24.7531 1.41891 24.7531 0.833121 24.1673Z" fill="#F1ECDD"/>
+                    <path d="M0.832894 0.832772C1.41868 0.246986 2.36843 0.246986 2.95421 0.832772L24.1674 22.046C24.7532 22.6318 24.7532 23.5815 24.1674 24.1673C23.5816 24.7531 22.6319 24.7531 22.0461 24.1673L0.832895 2.95409C0.247108 2.36831 0.247108 1.41856 0.832894 0.832772Z" fill="#F1ECDD"/>
+                </svg>
+            </button>
+            <div class="header__bottom-inner">
+                <div class="container">
+                    <nav class="header__bottom-menu">
+                        <ul>
+                            <li>
+                                <a href="#">О компании</a>
+                            </li>
+                            <li>
+                                <button class="header__menu-open">Услуги</button>
+                                <div class="header__bottom-catalog">
+                                <div class="container">
+                                    <ul class="header__bottom-list">
+                                        <li>
+                                            <a href="#">Организация похорон</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Выезд похоронного агента на дом</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Перевозка умершего в холодильную камеру крематория</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Сохранение умершего в холодильной камере</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Перевозка умершего в морг</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Катафалк</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Надмогильные кресты</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__bottom-list">
+                                        <li>
+                                            <a href="#">Надгробные памятники</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Продажа гробов</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Оформление кремации</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Кладбища Киева</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Услуги похоронного распорядителя</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Услуги бригады носильщиков</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Услуги священнослужителя</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="header__bottom-list">
+                                        <li>
+                                            <a href="#">Изготовление фотопортрета</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Траурные ленты на венки</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Услуги предоставляемые покойному</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Юридическая консультация</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Уборка помещения</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                                <a href="#">Цены</a>
+                            </li>
+                            <li>
+                                <a href="#">Отзывы</a>
+                            </li>
+                            <li>
+                                <a href="#">Блог</a>
+                            </li>
+                            <li>
+                                <a href="#">Вопросы-Ответы</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="header__bg-close"></div>
+    </header>
+
+    <main class="main">
+        <section class="pageContent">
+            <div class="container">
+                <div class="pageContent__inner">
+                    <ul class="breadcrumbs" data-aos="fade-up" data-aos-delay="0">
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a class="active" href="about.html">О нас</a>
+                        </li>
+                    </ul>
+                    <h1 class="pageContent__title" data-aos="fade-up" data-aos-delay="50">Ритуальная служба <i>Чирков</i></h1>
+                    <div class="pageContent__image" data-aos="fade-up" data-aos-delay="100">
+                        <img src="img/pageContent/about.jpg" alt="">
+                    </div>
+                    <p class="pageContent__descr" data-aos="fade-up" data-aos-delay="150">В течение достаточно длительного времени наша похоронная служба занимается предоставлением ритуальных и похоронных услуг в городе Киеве и Киевской области и с готовностью приходит на помощь для качественной организации проведения покойного в последний путь.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="provide">
+            <div class="container">
+                <div class="provide__inner">
+                    <div class="provide__content">
+                        <h2 class="provide__title" data-aos="fade-up" data-aos-delay="0">Оказываем следующие <i>похоронные услуги:</i></h2>
+                        <div data-aos="fade-up" data-aos-delay="100">
+                            <a class="provide__btn btn" href="#">
+                                Смотреть все услуги
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 10 12" fill="none">
+                                    <path d="M8.89844 2.88037V10.0132H9.99902V2.04346H10V0.942871H0.929688V2.04346H8.29199L0 10.3354L0.72168 11.0571L8.89844 2.88037Z" fill="#867C69"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="provide__block">
+                        <div class="provide__item" data-aos="fade-up" data-aos-delay="150">
+                            <div class="provide__item-icon">
+                                <img src="img/provide/1.svg" alt="">
+                            </div>
+                            <p class="provide__item-name">Подготовка и проведение похоронной церемонии</p>
+                        </div>
+                        <div class="provide__item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="provide__item-icon">
+                                <img src="img/provide/2.svg" alt="">
+                            </div>
+                            <p class="provide__item-name">Изготовление фото <br>на могилу</p>
+                        </div>
+                        <div class="provide__item" data-aos="fade-up" data-aos-delay="250">
+                            <div class="provide__item-icon">
+                                <img src="img/provide/3.svg" alt="">
+                            </div>
+                            <p class="provide__item-name">Изготовление памятников под заказ, гробов и венков</p>
+                        </div>
+                        <div class="provide__item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="provide__item-icon">
+                                <img src="img/provide/4.svg" alt="">
+                            </div>
+                            <p class="provide__item-name">Услуги священника по отпеванию умершего в церкви</p>
+                        </div>
+                        <div class="provide__item" data-aos="fade-up" data-aos-delay="350">
+                            <div class="provide__item-icon">
+                                <img src="img/provide/5.svg" alt="">
+                            </div>
+                            <p class="provide__item-name">Уборка помещения, где находился усопший</p>
+                        </div>
+                        <div class="provide__item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="provide__item-icon">
+                                <img src="img/provide/6.svg" alt="">
+                            </div>
+                            <p class="provide__item-name">Кремация в киевском крематории</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner">
+            <div class="container">
+                <div class="banner__inner" data-aos="fade-up" data-aos-delay="0">
+                    <h2 class="banner__title">Наша задача -</h2>
+                    <p class="banner__descr">по возможности уменьшить бремя эмоциональной нагрузки на людей, которые потеряли своих близких в решении организационных вопросов, связанных с проведением таких печальных, но необходимых обрядов</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="messageBlock messageBlock-reverse">
+            <div class="container">
+                <div class="messageBlock__inner">
+                    <div class="messageBlock__image" data-aos="fade-up" data-aos-delay="0">
+                        <img src="img/messageBlock.jpg" alt="">
+                    </div>
+                    <div class="messageBlock__content" data-aos="fade-up" data-aos-delay="100">
+                        <h2 class="messageBlock__title"><i>Сотрудники</i> нашей службы</h2>
+                        <p class="messageBlock__descr">Высокопрофессиональные агенты, тактично оказывают помощь в печальные дни Вашей жизни, возьмут на себя сугубо организационные вопросы, и помогут организовать надлежащие провода близкого Вам человека по максимально низким тарифам. </p>
+                        <p class="messageBlock__descr">Предельно внимательное отношение, в эти трудные для Вас минуты, ускорения всех необходимых процедур связанных с проводами в последний путь покойного, вот основная сфера нашей деятельности. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="feedback feedback-about">
+            <div class="container">
+                <div class="feedback__inner">
+                    <div class="feedback__block">
+                        <h2 class="feedback__title" data-aos="fade-up" data-aos-delay="0">Консультируем и сопровождаем <em>на всех этапах</em></h2>
+                        <p class="feedback__descr" data-aos="fade-up" data-aos-delay="100">Звоните нам прямо сейчас. Мы всегда готовы помочь. </p>
+                    </div>
+                    <form class="feedback__form" action="#">
+                        <div class="feedback__form-block">
+                            <div class="feedback__form-item" data-aos="fade-up" data-aos-delay="150">
+                                <input class="form-input" type="text" name="name" id="feedback-name" required>
+                                <label for="feedback-name">Ваше имя <span>*</span></label>
+                            </div>
+                            <div class="feedback__form-item" data-aos="fade-up" data-aos-delay="200">
+                                <input class="form-input" type="tel" name="tel" id="feedback-tel" required>
+                                <label for="feedback-tel">Контактный телефон <span>*</span></label>
+                            </div>
+                            <div class="feedback__form-item feedback__form-fill" data-aos="fade-up" data-aos-delay="250">
+                                <input class="form-input" type="text" name="message" id="feedback-message">
+                                <label for="feedback-message">Сообщение</label>
+                            </div>
+                        </div>
+                        <button class="feedback__form-btn btn-2" type="submit" data-aos="fade-up" data-aos-delay="300">
+                            Отправить заявку
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
+                                <path d="M11.1787 3.25586V11.8154H12.499V2.25195H12.5V0.931641H1.61621V2.25195H10.4512L0.5 12.2021L1.36621 13.0684L11.1787 3.25586Z" fill="#71553D"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__inner">
+                    <h2 class="reviews__title" data-aos="fade-up" data-aos-delay="0"><i>Отзывы</i> клиентов</h2>
+                    <p class="reviews__descr" data-aos="fade-up" data-aos-delay="100">Мы ценим каждое тёплое слово и стараемся оправдать доверие в самых непростых ситуациях</p>
+                    <div class="reviews__content" data-aos="fade-up" data-aos-delay="200">
+                        <button class="reviews__prev slider-btn">
+                            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.71854 5.24863L5.75402 1.21315L5.13185 0.590981L0.623352 5.09948L0.622661 5.09879L0.000490006 5.72096L0.00118054 5.72165L0.000490006 5.72234L0.622661 6.34451L0.623352 6.34382L5.13116 10.8516L5.75333 10.2295L1.58872 6.06484H10.9703V5.24863H1.71854Z" fill="#867C69"/>
+                            </svg>
+                        </button>
+                        <div class="reviews__slider">
+                            <div class="swiper-wrapper">
+                                <div class="reviews__slide swiper-slide">
+                                    <div class="reviews__slide-rating" data-rating="5"></div>
+                                    <div class="reviews__slide-user">
+                                        <h5 class="reviews__slide-name">Денис Викторович</h5>
+                                        <p class="reviews__slide-date">5 лет назад</p>
+                                    </div>
+                                    <p class="reviews__slide-message">“Когда провожаешь человека нехочется да и неполучается вникать во все нюансы похоронного дела (оформление бумадг и т.д. ) Здесь помогут подскажут и сделают все как надо. В тяжелый день похорон мне непришлось бегать как загнаный суслик, и я смог спокойно простится.”</p>
+                                </div>
+                                <div class="reviews__slide swiper-slide">
+                                    <div class="reviews__slide-rating" data-rating="5"></div>
+                                    <div class="reviews__slide-user">
+                                        <h5 class="reviews__slide-name">Сергей Basket</h5>
+                                        <p class="reviews__slide-date">4 года назад</p>
+                                    </div>
+                                    <p class="reviews__slide-message">“Мы благодарны работникам за их профессионализм и чуткое отношение к нам в тяжёлой ситуации, за их доброту и поддержку, всё было сделано быстро и чётко, полностью идя нам на встречу, без спешки и раздражение, спасибо вам и здоровья!”</p>
+                                </div>
+                                <div class="reviews__slide swiper-slide">
+                                    <div class="reviews__slide-rating" data-rating="5"></div>
+                                    <div class="reviews__slide-user">
+                                        <h5 class="reviews__slide-name">Anub Is</h5>
+                                        <p class="reviews__slide-date">9 месяцев назад</p>
+                                    </div>
+                                    <p class="reviews__slide-message">“Хочу поблагодарить вашу компанию и лично Александра за организацию захоронения. В тот момент, когда люди растеряны и не знают с чего начать, компания предоставляет организацию под ключ, отдельное спасибо фотографу, сделавшему действительно замечательное фото из другого фото.”</p>
+                                </div>
+                                <div class="reviews__slide swiper-slide">
+                                    <div class="reviews__slide-rating" data-rating="5"></div>
+                                    <div class="reviews__slide-user">
+                                        <h5 class="reviews__slide-name">Денис Викторович</h5>
+                                        <p class="reviews__slide-date">5 лет назад</p>
+                                    </div>
+                                    <p class="reviews__slide-message">“Когда провожаешь человека нехочется да и неполучается вникать во все нюансы похоронного дела (оформление бумадг и т.д. ) Здесь помогут подскажут и сделают все как надо. В тяжелый день похорон мне непришлось бегать как загнаный суслик, и я смог спокойно простится.”</p>
+                                </div>
+                                <div class="reviews__slide swiper-slide">
+                                    <div class="reviews__slide-rating" data-rating="5"></div>
+                                    <div class="reviews__slide-user">
+                                        <h5 class="reviews__slide-name">Сергей Basket</h5>
+                                        <p class="reviews__slide-date">4 года назад</p>
+                                    </div>
+                                    <p class="reviews__slide-message">“Мы благодарны работникам за их профессионализм и чуткое отношение к нам в тяжёлой ситуации, за их доброту и поддержку, всё было сделано быстро и чётко, полностью идя нам на встречу, без спешки и раздражение, спасибо вам и здоровья!”</p>
+                                </div>
+                                <div class="reviews__slide swiper-slide">
+                                    <div class="reviews__slide-rating" data-rating="5"></div>
+                                    <div class="reviews__slide-user">
+                                        <h5 class="reviews__slide-name">Anub Is</h5>
+                                        <p class="reviews__slide-date">9 месяцев назад</p>
+                                    </div>
+                                    <p class="reviews__slide-message">“Хочу поблагодарить вашу компанию и лично Александра за организацию захоронения. В тот момент, когда люди растеряны и не знают с чего начать, компания предоставляет организацию под ключ, отдельное спасибо фотографу, сделавшему действительно замечательное фото из другого фото.”</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="reviews__next slider-btn">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.65988 5.24863L5.6244 1.21315L6.24726 0.590291L11.3779 5.72096L10.7558 6.34451L10.7551 6.34382L6.24726 10.8516L5.62509 10.2295L9.7897 6.06484H0.408106V5.24863H9.65988Z" fill="#867C69"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="reviews__pagination" data-aos="fade-up" data-aos-delay="250"></div>
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <a class="reviews__btn btn" href="#">
+                            Все отзывы
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="12" viewBox="0 0 10 12" fill="none">
+                                <path d="M8.89844 2.88037V10.0132H9.99902V2.04346H10V0.942871H0.929688V2.04346H8.29199L0 10.3354L0.72168 11.0571L8.89844 2.88037Z" fill="#867C69"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="messageBlock messageBlock-reset">
+            <div class="container">
+                <div class="messageBlock__inner">
+                    <div class="messageBlock__image" data-aos="fade-up" data-aos-delay="0">
+                        <img src="img/messageBlock.jpg" alt="">
+                    </div>
+                    <div class="messageBlock__content" data-aos="fade-up" data-aos-delay="100">
+                        <h2 class="messageBlock__title">Ритуальные <i>товары</i></h2>
+                        <p class="messageBlock__descr">Кроме организации захоронения, предоставления ритуальных услуг, мы готовы предложить большой выбор ритуальной атрибутики, товаров, похоронный транспорт, услуги ритуального агента. Наша ритуальная служба поможет достойно провести близкого вам человека в последний путь. Мы работаем без выходных, круглосуточно.</p>
+                        <a class="messageBlock__btn btn" href="#">
+                            Ритуальные товары
+                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 11 12" fill="none">
+                                <path d="M9.39844 2.88037V10.0132H10.499V2.04346H10.5V0.942871H1.42969V2.04346H8.79199L0.5 10.3354L1.22168 11.0571L9.39844 2.88037Z" fill="#867C69"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faq__inner">
+                    <h2 class="faq__title" data-aos="fade-up" data-aos-delay="0">Часто задаваемые <i>вопросы</i></h2>
+                    <p class="faq__descr" data-aos="fade-up" data-aos-delay="100">Здесь вы найдёте ответы на важные вопросы, которые чаще всего возникают при организации похорон</p>
+                    <div class="faq__block">
+                        <div class="faq__item" data-aos="fade-up" data-aos-delay="150">
+                            <h3 class="faq__item-title">Что делать, если умер близкий человек?</h3>
+                            <p class="faq__item-descr">Это зависит от личных взглядов, вероисповедания и обстоятельств. Традиционное погребение ближе многим людям с точки зрения религии и обычаев. Однако кремация бывает удобнее в городских условиях – урну с прахом легче разместить в колумбарии или семейной могиле, учитывая дефицит мест на кладбищах. Мы подробно расскажем Вам о плюсах каждого варианта и организуем церемонию согласно Вашему выбору.</p>
+                        </div>
+                        <div class="faq__item" data-aos="fade-up" data-aos-delay="200">
+                            <h3 class="faq__item-title">Какие документы нужны для организации похорон?</h3>
+                            <p class="faq__item-descr">Это зависит от личных взглядов, вероисповедания и обстоятельств. Традиционное погребение ближе многим людям с точки зрения религии и обычаев. Однако кремация бывает удобнее в городских условиях – урну с прахом легче разместить в колумбарии или семейной могиле, учитывая дефицит мест на кладбищах. Мы подробно расскажем Вам о плюсах каждого варианта и организуем церемонию согласно Вашему выбору.</p>
+                        </div>
+                        <div class="faq__item" data-aos="fade-up" data-aos-delay="250">
+                            <h3 class="faq__item-title">Что лучше: кремация или традиционное захоронение?</h3>
+                            <p class="faq__item-descr">Это зависит от личных взглядов, вероисповедания и обстоятельств. Традиционное погребение ближе многим людям с точки зрения религии и обычаев. Однако кремация бывает удобнее в городских условиях – урну с прахом легче разместить в колумбарии или семейной могиле, учитывая дефицит мест на кладбищах. Мы подробно расскажем Вам о плюсах каждого варианта и организуем церемонию согласно Вашему выбору.</p>
+                        </div>
+                        <div class="faq__item" data-aos="fade-up" data-aos-delay="300">
+                            <h3 class="faq__item-title">Сколько времени занимает организация похорон?</h3>
+                            <p class="faq__item-descr">Это зависит от личных взглядов, вероисповедания и обстоятельств. Традиционное погребение ближе многим людям с точки зрения религии и обычаев. Однако кремация бывает удобнее в городских условиях – урну с прахом легче разместить в колумбарии или семейной могиле, учитывая дефицит мест на кладбищах. Мы подробно расскажем Вам о плюсах каждого варианта и организуем церемонию согласно Вашему выбору.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback feedback-last">
+            <div class="container">
+                <div class="feedback__inner">
+                    <div class="feedback__block">
+                        <h2 class="feedback__title" data-aos="fade-up" data-aos-delay="0">Остались <i>вопросы?</i></h2>
+                        <p class="feedback__descr" data-aos="fade-up" data-aos-delay="100">Оставьте свой номер телефона, и мы перезвоним Вам в течение нескольких минут</p>
+                    </div>
+                    <form class="feedback__form" action="#">
+                        <div class="feedback__form-block">
+                            <div class="feedback__form-item" data-aos="fade-up" data-aos-delay="150">
+                                <input class="form-input" type="text" name="name" id="feedback-name" required>
+                                <label for="feedback-name">Ваше имя <span>*</span></label>
+                            </div>
+                            <div class="feedback__form-item" data-aos="fade-up" data-aos-delay="200">
+                                <input class="form-input" type="tel" name="tel" id="feedback-tel" required>
+                                <label for="feedback-tel">Контактный телефон <span>*</span></label>
+                            </div>
+                        </div>
+                        <button class="feedback__form-btn btn-2" type="submit" data-aos="fade-up" data-aos-delay="300">
+                            Заказать звонок
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
+                                <path d="M11.1787 3.25586V11.8154H12.499V2.25195H12.5V0.931641H1.61621V2.25195H10.4512L0.5 12.2021L1.36621 13.0684L11.1787 3.25586Z" fill="#71553D"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="popup">
+            <div class="container">
+                <div class="popup__inner">
+                    <button class="popup__close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <g clip-path="url(#clip0_13_6414)">
+                                <path d="M-4.66602 -4.66666L20.6673 20.6667M20.6673 -4.66666L-4.66602 20.6667" stroke="#867C69" stroke-linecap="round"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_13_6414">
+                                <rect width="16" height="16" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                    <h2 class="popup__title">Заказать звонок</h2>
+                    <p class="popup__descr">Оставьте свои контактные данные, и наши специалисты свяжутся с вами в ближайшее время</p>
+                    <form class="popup__form" action="#">
+                        <div class="popup__form-item">
+                            <input class="form-input" type="text" name="name" id="popup-name" required>
+                            <label for="popup-name">Ваше имя <span>*</span></label>
+                        </div>
+                        <div class="popup__form-item">
+                            <input class="form-input" type="tel" name="tel" id="popup-tel" required>
+                            <label for="popup-tel">Контактный телефон <span>*</span></label>
+                        </div>
+                        <div class="popup__agreed agreed-box">
+                            <label class="agreed-label" for="popup-agreed">
+                                <input type="checkbox" name="agreed" id="popup-agreed" required hidden>
+                                <span></span>
+                            </label>
+                            <p class="agreed-descr">Согласие на обработку персональных данных в соответствии <a href="#">политики конфиденциальности</a></p>
+                        </div>
+                        <button class="popup__form-btn btn-2" type="submit">
+                            Заказать звонок
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
+                                <path d="M11.1787 3.25586V11.8154H12.499V2.25195H12.5V0.931641H1.61621V2.25195H10.4512L0.5 12.2021L1.36621 13.0684L11.1787 3.25586Z" fill="#71553D"/>
+                            </svg>  
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__top">
+                    <div class="footer__start">
+                        <div class="footer__start-icon">
+                            <img src="img/footer-logo.svg" alt="">
+                        </div>
+                        <p class="footer__start-name">«Ритуальная служба Чирков — c заботой о тех, кто был нам дорог»</p>
+                    </div>
+                    <div class="footer__content">
+                        <div class="footer__box">
+                            <h3 class="footer__box-name">Контакты</h3>
+                            <div class="footer__box-content">
+                                <div class="footer__box-item">
+                                    <a class="footer__item-tel" href="tel:+380445993000">(044) 599-30-00</a>
+                                    <div class="footer__item-socials">
+                                        <a href="#" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                <path d="M9 1.5C4.86 1.5 1.5 4.86 1.5 9C1.5 13.14 4.86 16.5 9 16.5C13.14 16.5 16.5 13.14 16.5 9C16.5 4.86 13.14 1.5 9 1.5ZM12.48 6.6C12.3675 7.785 11.88 10.665 11.6325 11.9925C11.5275 12.555 11.3175 12.7425 11.1225 12.765C10.6875 12.8025 10.3575 12.48 9.9375 12.2025C9.2775 11.7675 8.9025 11.4975 8.265 11.0775C7.5225 10.59 8.0025 10.32 8.43 9.885C8.5425 9.7725 10.4625 8.025 10.5 7.8675C10.5052 7.84364 10.5045 7.81888 10.498 7.79535C10.4914 7.77183 10.4793 7.75025 10.4625 7.7325C10.4175 7.695 10.3575 7.71 10.305 7.7175C10.2375 7.7325 9.1875 8.43 7.14 9.81C6.84 10.0125 6.57 10.1175 6.33 10.11C6.06 10.1025 5.55 9.96 5.1675 9.8325C4.695 9.6825 4.3275 9.6 4.3575 9.3375C4.3725 9.2025 4.56 9.0675 4.9125 8.925C7.1025 7.9725 8.5575 7.3425 9.285 7.0425C11.37 6.1725 11.7975 6.0225 12.0825 6.0225C12.1425 6.0225 12.285 6.0375 12.375 6.1125C12.45 6.1725 12.4725 6.255 12.48 6.315C12.4725 6.36 12.4875 6.495 12.48 6.6Z" fill="#2AABEE"/>
+                                            </svg>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5073 1.97103C10.1477 1.44357 7.70067 1.44357 5.34104 1.97103L5.08679 2.02728C4.42287 2.17528 3.81306 2.50464 3.32524 2.97869C2.83742 3.45274 2.49073 4.05288 2.32379 4.71228C1.72671 7.06931 1.72671 9.53801 2.32379 11.895C2.48302 12.5239 2.80587 13.0994 3.25954 13.5631C3.71322 14.0268 4.28155 14.3621 4.90679 14.535L5.25554 16.617C5.26667 16.6831 5.29532 16.7451 5.33851 16.7963C5.3817 16.8476 5.43785 16.8864 5.50111 16.9086C5.56436 16.9308 5.63242 16.9356 5.69818 16.9226C5.76395 16.9096 5.82502 16.8792 5.87504 16.8345L7.92329 15.0023C9.46085 15.0951 11.0038 14.9722 12.5073 14.637L12.7623 14.5808C13.4262 14.4328 14.036 14.1034 14.5238 13.6294C15.0117 13.1553 15.3583 12.5552 15.5253 11.8958C16.1224 9.53876 16.1224 7.07006 15.5253 4.71303C15.3583 4.05353 15.0115 3.45333 14.5235 2.97927C14.0356 2.50521 13.4256 2.17591 12.7615 2.02803L12.5073 1.97103ZM5.97404 4.65153C5.83465 4.63112 5.69247 4.65919 5.57129 4.73103H5.56079C5.27954 4.89603 5.02604 5.10378 4.81004 5.34828C4.63004 5.55603 4.53254 5.76603 4.50704 5.96853C4.49204 6.08853 4.50254 6.21003 4.53779 6.32478L4.55129 6.33228C4.75379 6.92703 5.01779 7.49928 5.34029 8.03778C5.75631 8.79403 6.26802 9.49354 6.86279 10.119L6.88079 10.1445L6.90929 10.1655L6.92654 10.1858L6.94754 10.2038C7.57527 10.8003 8.27641 11.3144 9.03404 11.7338C9.90029 12.2055 10.426 12.4283 10.7418 12.5213V12.5258C10.834 12.5543 10.918 12.567 11.0028 12.567C11.2718 12.5477 11.5265 12.4384 11.7258 12.2565C11.9695 12.0405 12.1758 11.7863 12.3363 11.5035V11.4983C12.487 11.2133 12.436 10.9448 12.2185 10.7625C11.782 10.3804 11.3096 10.0413 10.8078 9.75003C10.4718 9.56778 10.1305 9.67803 9.99254 9.86253L9.69779 10.2345C9.54629 10.419 9.27179 10.3935 9.27179 10.3935L9.26429 10.398C7.21604 9.87528 6.66929 7.80153 6.66929 7.80153C6.66929 7.80153 6.64379 7.51953 6.83354 7.37553L7.20254 7.07853C7.37954 6.93453 7.50254 6.59403 7.31279 6.25803C7.02222 5.7566 6.6839 5.28441 6.30254 4.84803C6.21912 4.74557 6.10229 4.67574 5.97254 4.65078M9.43454 3.75003C9.33508 3.75003 9.2397 3.78954 9.16937 3.85987C9.09905 3.9302 9.05954 4.02558 9.05954 4.12503C9.05954 4.22449 9.09905 4.31987 9.16937 4.3902C9.2397 4.46053 9.33508 4.50003 9.43454 4.50003C10.3833 4.50003 11.1708 4.80978 11.794 5.40378C12.1143 5.72853 12.364 6.11328 12.5275 6.53478C12.6918 6.95703 12.7668 7.40778 12.7473 7.85928C12.7452 7.90853 12.7529 7.9577 12.7698 8.00399C12.7867 8.05028 12.8126 8.09278 12.846 8.12906C12.9134 8.20234 13.0071 8.24586 13.1065 8.25003C13.206 8.25421 13.303 8.21871 13.3763 8.15134C13.4496 8.08396 13.4931 7.99024 13.4973 7.89078C13.5197 7.33545 13.4275 6.78146 13.2265 6.26328C13.0246 5.74247 12.7172 5.26905 12.3235 4.87278L12.316 4.86528C11.5428 4.12653 10.564 3.75003 9.43454 3.75003ZM9.40904 4.98303C9.30958 4.98303 9.2142 5.02254 9.14387 5.09287C9.07355 5.1632 9.03404 5.25858 9.03404 5.35803C9.03404 5.45749 9.07355 5.55287 9.14387 5.6232C9.2142 5.69353 9.30958 5.73303 9.40904 5.73303H9.42179C10.1058 5.78178 10.6038 6.00978 10.9525 6.38403C11.3103 6.76953 11.4955 7.24878 11.4813 7.84128C11.479 7.94074 11.5163 8.03703 11.585 8.10898C11.6537 8.18092 11.7482 8.22262 11.8477 8.22491C11.9471 8.2272 12.0434 8.18988 12.1154 8.12117C12.1873 8.05246 12.229 7.95799 12.2313 7.85853C12.2493 7.08078 11.9988 6.40953 11.5023 5.87403V5.87253C10.9945 5.32803 10.2978 5.04003 9.45929 4.98378L9.44654 4.98228L9.40904 4.98303ZM9.39479 6.23928C9.3446 6.23486 9.29404 6.24059 9.24612 6.25613C9.1982 6.27168 9.1539 6.29672 9.11587 6.32976C9.07784 6.36281 9.04686 6.40317 9.02477 6.44846C9.00269 6.49374 8.98996 6.54301 8.98734 6.59332C8.98472 6.64363 8.99226 6.69396 9.00952 6.74129C9.02677 6.78862 9.05339 6.83199 9.08778 6.86881C9.12217 6.90563 9.16363 6.93514 9.20967 6.95558C9.25572 6.97602 9.30542 6.98697 9.35579 6.98778C9.66929 7.00428 9.86954 7.09878 9.99554 7.22553C10.1223 7.35303 10.2168 7.55778 10.234 7.87803C10.235 7.92836 10.246 7.97798 10.2666 8.02394C10.2871 8.0699 10.3166 8.11126 10.3535 8.14555C10.3903 8.17985 10.4337 8.20637 10.481 8.22355C10.5283 8.24073 10.5786 8.2482 10.6289 8.24553C10.6791 8.24286 10.7283 8.2301 10.7736 8.20801C10.8188 8.18592 10.8591 8.15495 10.8921 8.11695C10.9251 8.07895 10.9501 8.03469 10.9657 7.98681C10.9812 7.93894 10.9869 7.88842 10.9825 7.83828C10.9585 7.38828 10.8175 6.99078 10.5288 6.69828C10.2385 6.40578 9.84329 6.26328 9.39479 6.23928Z" fill="#6247BD"/>
+                                            </svg>
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                                <path d="M9.00099 1.5C13.1432 1.5 16.501 4.85775 16.501 9C16.501 13.1422 13.1432 16.5 9.00099 16.5C7.67555 16.5023 6.37342 16.1515 5.22849 15.4838L1.50399 16.5L2.51799 12.774C1.84971 11.6287 1.49867 10.326 1.50099 9C1.50099 4.85775 4.85874 1.5 9.00099 1.5ZM6.44499 5.475L6.29499 5.481C6.19801 5.48768 6.10325 5.51315 6.01599 5.556C5.93467 5.60213 5.86041 5.65972 5.79549 5.727C5.70549 5.81175 5.65449 5.88525 5.59974 5.9565C5.32233 6.31718 5.17297 6.75998 5.17524 7.215C5.17674 7.5825 5.27274 7.94025 5.42274 8.27475C5.72949 8.95125 6.23424 9.6675 6.90024 10.3312C7.06074 10.491 7.21824 10.6515 7.38774 10.8008C8.21531 11.5293 9.20145 12.0547 10.2677 12.3353L10.6937 12.4005C10.8325 12.408 10.9712 12.3975 11.1107 12.3907C11.3291 12.3792 11.5424 12.3201 11.7355 12.2175C11.8336 12.1668 11.9295 12.1117 12.0227 12.0525C12.0227 12.0525 12.0545 12.031 12.1165 11.985C12.2177 11.91 12.28 11.8568 12.364 11.769C12.427 11.704 12.4795 11.6285 12.5215 11.5425C12.58 11.4203 12.6385 11.187 12.6625 10.9927C12.6805 10.8442 12.6752 10.7633 12.673 10.713C12.67 10.6328 12.6032 10.5495 12.5305 10.5143L12.094 10.3185C12.094 10.3185 11.4415 10.0343 11.0425 9.85275C11.0007 9.83457 10.956 9.82415 10.9105 9.822C10.8592 9.81663 10.8073 9.82236 10.7584 9.83879C10.7095 9.85523 10.6647 9.88198 10.627 9.91725C10.6232 9.91575 10.573 9.9585 10.0307 10.6155C9.99961 10.6573 9.95674 10.6889 9.90759 10.7063C9.85844 10.7237 9.80522 10.726 9.75474 10.713C9.70586 10.7 9.65798 10.6834 9.61149 10.6635C9.51849 10.6245 9.48624 10.6095 9.42249 10.5825C8.99189 10.3949 8.59332 10.1411 8.24124 9.83025C8.14674 9.74775 8.05899 9.65775 7.96899 9.57075C7.67395 9.28816 7.4168 8.96849 7.20399 8.61975L7.15974 8.5485C7.12844 8.50035 7.10277 8.44876 7.08324 8.39475C7.05474 8.2845 7.12899 8.196 7.12899 8.196C7.12899 8.196 7.31124 7.9965 7.39599 7.8885C7.47849 7.7835 7.54824 7.6815 7.59324 7.60875C7.68174 7.46625 7.70949 7.32 7.66299 7.20675C7.45299 6.69375 7.23599 6.1835 7.01199 5.676C6.96774 5.5755 6.83649 5.5035 6.71724 5.48925C6.67674 5.48425 6.63624 5.48025 6.59574 5.47725C6.49503 5.47147 6.39406 5.47248 6.29349 5.48025L6.44499 5.475Z" fill="#38D547"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="footer__box-item">
+                                    <p class="footer__item-adress">г. Киев, <br>ул. Багговутовская, 1, корп. 18 <br>(территория Киевской областной клинической больницы № 1)</p>
+                                    <a class="footer__item-link" href="#" target="_blank">На карте</a>
+                                </div>
+                                <div class="footer__box-item">
+                                    <a class="footer__item-mail" href="mailto:info@chirkov.com.ua">info@chirkov.com.ua</a>
+                                    <p class="footer__item-descr">Работаем круглосуточно, без выходных</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__box">
+                            <h3 class="footer__box-name">Контакты</h3>
+                            <ul class="footer__box-menu">
+                                <li>
+                                    <a href="#">О компании</a>
+                                </li>
+                                <li>
+                                    <a href="#">Блог</a>
+                                </li>
+                                <li>
+                                    <a href="#">Наши услуги</a>
+                                </li>
+                                <li>
+                                    <a href="#">Вопросы и ответы</a>
+                                </li>
+                                <li>
+                                    <a href="#">Цены</a>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                                <li>
+                                    <a href="#">Отзывы</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <p class="footer__bottom-descr">© 2025 “Chirkov & Co”. Все права защищены.</p>
+                    <p class="footer__bottom-descr">Разработка сайта - <a href="#" target="_blank">Impulse Design.</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
