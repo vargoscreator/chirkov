@@ -151,7 +151,6 @@ const headerAdress = document.querySelector('.header__adress');
 const headerBlock = document.querySelector('.header__block');
 const headerBoxes = document.querySelectorAll('.header__box');
 const headerBottom = document.querySelector('.header__bottom');
-const headerLang = document.querySelector('.header__lang');
 const headerEnd = document.querySelector('.header__end');
 function moveHeaderElements() {
 	if (window.innerWidth < 768) {
@@ -161,18 +160,12 @@ function moveHeaderElements() {
 		if (!headerBottom.contains(headerBlock)) {
 			headerBottom.append(headerBlock);
 		}
-		if (!headerBottom.contains(headerLang)) {
-			headerBottom.append(headerLang);
-		}
 	} else {
 		if (!headerBoxes[0].contains(headerAdress)) {
 			headerBoxes[0].append(headerAdress);
 		}
 		if (!headerBoxes[1].contains(headerBlock)) {
 			headerBoxes[1].prepend(headerBlock);
-		}
-		if (!headerEnd.contains(headerLang)) {
-			headerEnd.append(headerLang);
 		}
 	}
 }

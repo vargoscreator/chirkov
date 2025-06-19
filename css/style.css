@@ -670,6 +670,9 @@ main.main.main-reset{
 .header-transparent:not(.scrolled){
     background-image: none;
 }
+.header__tel{
+    display: none;
+}
 @media (max-width: 1279px) {
     .header__bottom-menu{
         max-width: 870px;
@@ -801,9 +804,6 @@ main.main.main-reset{
         order: -1;
         max-width: 80px;
     }
-    .header__lang{
-        margin: 20px auto 0;
-    }
     .header__bg-close{
         display: flex;
         position: fixed;
@@ -819,6 +819,18 @@ main.main.main-reset{
         opacity: 1;
         pointer-events: all;
     }
+    .header__btn{
+        display: none;
+    }
+    .header__tel{
+        display: flex;
+    }
+    .header__end{
+        flex-direction: row;
+    }
+    .header__box{
+        max-width: max-content;
+    }
 }
 @media (max-width: 479px) {
     .header__inner{
@@ -826,10 +838,6 @@ main.main.main-reset{
     }
     .header__name{
         font-size: 12px;
-    }
-    .header__btn{
-        font-size: 14px;
-        padding: 6px;
     }
     .header__logo{
         max-width: 65px;
